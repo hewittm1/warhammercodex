@@ -14,6 +14,19 @@
 	src: url('../fonts/Comfortaa/Comfortaa-Regular.eot');
 	src: url('../fonts/Comfortaa/Comfortaa-Regular.woff') format('woff'), url('../fonts/Comfortaa/Comfortaa-Regular.ttf') format('truetype'), url('../fonts/Comfortaa/Comfortaa-Regular.svg') format('svg');
 }
+#Relictemp h1{
+    font-family: fantasy;
+    font-size: 20px;
+    color: #313939;
+    margin-left: 25%;
+}
+#Relictemp p{
+    font-family: serif;
+    margin-left: 25%;
+}
+#Relictemp b{
+    margin-left: 25%;
+}
 body {
     background-image:url(../images/codex%20background%201.jpg);
     background-size: cover;
@@ -299,8 +312,8 @@ body {
 	width: 460px;
 }
 #body div .section div {
-	background: #c0b283;
-	
+	background: #393939;
+	border-style: groove;
 	border-radius: 4px;
 	float: none;
 	margin: 0;
@@ -327,7 +340,7 @@ border: 5px solid #393939;// this was in the .sectio div
 	width: 31px;
 }
 #body div .section .article p {
-	color: darkslategrey;
+	color: #c0b283;
 	font-size: 14px;
 	line-height: 24px;
 	margin: 0;
@@ -357,10 +370,9 @@ border: 5px solid #393939;// this was in the .sectio div
 }
 
 #body div .newsletter div p{
-    background: #c0b283;
+    background: #393939;
     background-size: cover;
-	border: 5px solid #393939;
-	border-radius: 4px;
+	border: 5px groove #c0b283;
 	float: none;
 	margin: 0;
 	padding: 0 15px;
@@ -375,12 +387,7 @@ border: 5px solid #393939;// this was in the .sectio div
 	top: -13px;
 	z-index: 5;
 }
-#body div .newsletter{    
-	float: none;
-    margin-right: 5%;
-	padding: px 15px;
-	position: inherit;
-}
+
 #body div .Sheader p{
     color: darkslategrey;
 	font-size: 14px;
@@ -417,7 +424,7 @@ border: 5px solid #393939;// this was in the .sectio div
 	z-index: 5;
 }
 #body div .newsletter p {
-	color: darkslategrey;
+	color: #c0b283;
 	font-size: 14px;
 	line-height: 24px;
 	margin: 0;
@@ -491,6 +498,7 @@ tc{
     width: 100%;
 }
 .relic3{
+    
     color: black;
     font-style: italic;
     width: 100%;
