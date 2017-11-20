@@ -817,3 +817,34 @@ tc{
 #footer div .connect #pinterest:hover {
 	background-position: -25px -107px;
 }
+
+
+<--RealCodex-->
+#body div .TABLE
+{ 
+    margin: 10px 0 30px 0;    
+}
+
+table tr th, table tr td
+{ background: #3B3B3B;
+  color: #FFF;
+  text-align: left;
+}
+table thead th{
+    text-align: left;
+}
+table tbody th{
+    text-align: left;
+}
+table tbody td{
+    background: #E5E5DB;
+    color: #47433F;
+    border-top: 1px solid #FFF;
+    width: auto;
+}
+table thead tr th{
+    word-wrap: break-word;
+}
+table thead #classdescription{
+    
+}
