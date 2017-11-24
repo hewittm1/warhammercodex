@@ -824,27 +824,53 @@ tc{
 { 
     margin: 10px 0 30px 0;    
 }
-
-table tr th, table tr td
-{ background: #3B3B3B;
+table thead th div{
+    padding-left: 25px;
+    float: left;
+}
+table  th
+{ 
+    background: #3B3B3B;
   color: #FFF;
   text-align: left;
 }
 table thead th{
     text-align: left;
 }
+
 table tbody th{
     text-align: left;
 }
 table tbody td{
-    background: #E5E5DB;
+    background: #c0b283;
     color: #47433F;
-    border-top: 1px solid #FFF;
     width: auto;
+    font-size: 12px;
+}
+table tbody td b{
+    padding-left: 50%;
+    float: right;    
 }
 table thead tr th{
-    word-wrap: break-word;
+    color: #c0b283;
 }
-table thead #classdescription{
+table thead tr th tb {
+    color: #E5E5DB;   
+}
+TABLE{
+    background-color: #c0b283;    
+}
+.weapons p{
+    color: aliceblue;
+    padding: 10px;
     
+    word-wrap: break-word;
+    
+}
+table tbody td tb{
+    color: red; 
+    word-wrap: break-word;
+    text-align: right;
+    align-items: center;
+    float: right;
 }
