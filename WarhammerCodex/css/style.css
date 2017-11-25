@@ -831,8 +831,22 @@ table thead th div{
 table  th
 { 
     background: #3B3B3B;
-  color: #FFF;
-  text-align: left;
+    color: #FFF;
+    text-align: left;
+}
+.factionkeywords ul{
+    padding: inherit;
+    margin-top: inherit;
+    margin-left: 250px;
+    float: right;   
+}
+table .thead1{
+    
+}
+table h4{
+    padding: inherit;
+    margin: inherit;
+    float:left;
 }
 table thead th{
     text-align: left;
@@ -841,31 +855,40 @@ table thead th{
 table tbody th{
     text-align: left;
 }
+table thead th .p1{
+    color: white;
+    background: #302939;
+}
 table tbody td{
-    background: #c0b283;
     color: #47433F;
-    width: auto;
+    background: #c0b283;
     font-size: 12px;
 }
+table tbody .td1{
+    color: #c0b283;
+    background: #47433F;
+    font-size: 12px;
+}
+table tbody td ul{
+    padding-left: 20%;
+    margin: inherit;
+    margin-right: 165px;
+    background: #47433F;
+    color: #c0b283;
+}
 table tbody td b{
-    padding-left: 50%;
     float: right;    
 }
 table thead tr th{
+    padding: inherit;
     color: #c0b283;
 }
 table thead tr th tb {
     color: #E5E5DB;   
 }
 TABLE{
-    background-color: #c0b283;    
-}
-.weapons p{
-    color: aliceblue;
-    padding: 10px;
-    
-    word-wrap: break-word;
-    
+    padding: inherit;
+    background-color: #c0b283;   
 }
 table tbody td tb{
     color: red; 
@@ -873,4 +896,11 @@ table tbody td tb{
     text-align: right;
     align-items: center;
     float: right;
+}
+table thead td .wargear1{
+    background: #c0b283;
+    color: #47433F;
+}
+table thead td {
+    padding: inherit;
 }
