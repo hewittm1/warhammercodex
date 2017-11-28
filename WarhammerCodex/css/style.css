@@ -822,7 +822,15 @@ tc{
 <--RealCodex-->
 #body div .TABLE
 { 
-    margin: 10px 0 30px 0;    
+    align-self: center;
+}
+.Header{
+    width: inherit;
+    padding-left: 40%;
+}
+table .thehead{
+    width: 50%;
+    background-color: darkgoldenrod;
 }
 table thead th div{
     padding-left: 25px;
@@ -860,6 +868,7 @@ table thead th .p1{
     background: #302939;
 }
 table tbody td{
+    padding: inherit;
     color: #47433F;
     background: #c0b283;
     font-size: 12px;
@@ -868,6 +877,7 @@ table tbody .td1{
     color: #c0b283;
     background: #47433F;
     font-size: 12px;
+    width: 100%;
 }
 table tbody td ul{
     padding-left: 20%;
@@ -887,8 +897,16 @@ table thead tr th tb {
     color: #E5E5DB;   
 }
 TABLE{
+    padding-right: 300px;
     padding: inherit;
-    background-color: #c0b283;   
+    background-color: #c0b283;  
+}
+div.TABLE{
+    margin-top: 10px;
+    width: 36.15%;
+    border-style: groove;
+    border-width: 5px;
+    border-top-left-radius: 10px;
 }
 table tbody td tb{
     color: red; 
@@ -903,4 +921,12 @@ table thead td .wargear1{
 }
 table thead td {
     padding: inherit;
+}
+.pagenum{
+    padding-left: 50%;
+    
+}
+.cost{
+    float: right;
+    padding-left: 250px;
 }
