@@ -414,15 +414,7 @@ border: 5px solid #393939;// this was in the .sectio div
 	padding: 25px 0px;
 	text-align: center;
 }
-#body div .newsletter img{
-   display: block;
-	left: 0;
-	margin: 0;
-	padding: 0;
-	position: absolute;
-	top: -13px;
-	z-index: 5;
-}
+
 #body div .newsletter p {
 	color: #c0b283;
 	font-size: 14px;
@@ -550,9 +542,7 @@ tc{
     color: darkslategrey;
     width: 100%;
 }
-#body div .newsletter p a:hover {
-	color: #97d0d3;
-}
+
 #body div .section .newsletter p {
 	color: #f5f5f5;
 	font-size: 14px;
@@ -565,48 +555,11 @@ tc{
 #body div .section .newsletter p span {
 	display: block;
 }
-#body div .section .newsletter form {
-	margin: 0;
-	overflow: hidden;
-	padding: 0;
-}
-#body div .section .newsletter form span {
-	color: #f5f5f5;
-	clear: both;
-	display: block;
-	font-size: 14px;
-	letter-spacing: 0.01em;
-	line-height: 30px;
-	margin: 0;
-	padding: 0 0 4px;
-	text-transform: capitalize;
-	text-shadow: 0 -1px 0 #285f62;
-}
-#body div .section .newsletter form input {
-	background: url(../images/interface.png) no-repeat;
-	border: 0;
-	display: block;
-	float: left;
-	height: 30px;
-	margin: 0;
-	padding: 0;
-}
-#body div .section .newsletter form #email {
-	background-position: -399px -72px;
-	color: #68a7aa;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	font-style: italic;
-	line-height: 30px;
-	padding: 0 5px;
-	text-align: center;
-	width: 130px;
-}
-#body div .section .newsletter form #send {
-	background-position: -399px -110px;
-	text-indent: -99999px;
-	width: 80px;
-}
+
+
+
+
+
 #body > .article {
 	margin: 0;
 	padding: 0;
@@ -630,9 +583,7 @@ tc{
 	color: #464646;
 	text-decoration: underline;
 }
-#body > .article p a:hover {
-	color: #252525;
-}
+
 #body > .article ul {
 	margin: 0;
 	padding: 30px 0 30px 10px;
@@ -648,14 +599,8 @@ tc{
 	color: #464646;
 	text-decoration: none;
 }
-#body > .article ul li a:hover {
-	color: #252525;
-}
 #body > .article h3 {
 	padding-bottom: 20px;
-}
-#body .blog {
-	padding: 0;
 }
 #body .content {
 	float: left;
@@ -681,66 +626,7 @@ tc{
 #body .content p a:hover {
 	color: #252525;
 }
-#body .sidebar {
-	background: url(../images/bg-sidebar.jpg) repeat-y top left;
-	float: right;
-	margin: 0 10px 82px 0;
-	padding: 0;
-	width: 320px;
-}
-#body .sidebar h3 {
-	background: url(../images/bg-sidebar-heading.jpg) no-repeat 0 0;
-	color: #2f394e;
-	font-family: 'Comfortaa-Regular';
-	font-size: 20px;
-	font-weight: normal;
-	letter-spacing: 0.1em;
-	margin: 0;
-	padding: 25px 10px;
-	text-align: center;
-	text-transform: capitalize;
-}
-#body .sidebar ul {
-	background: url(../images/bg-sidebar-footer.jpg) no-repeat bottom left;
-	margin: 0;
-	padding: 0 20px 50px;
-}
-#body .sidebar ul li {
-	list-style: none;
-	margin: 0;
-	padding: 0 0 24px;
-}
-#body .sidebar ul li span {
-	color: #2f394e;
-	display: block;
-	font-size: 16px;
-	font-weight: bold;
-	letter-spacing: 0.01em;
-	line-height: 24px;
-	margin: 0;
-	padding: 0;
-}
-#body .sidebar ul li span a {
-	color: #2f394e;
-	text-decoration: none;
-}
-#body .sidebar ul li span a:hover {
-	color: #4c8f97;
-}
-#body .sidebar ul li p {
-	color: #000;
-	font-size: 13px;
-	line-height: 24px;
-	margin: 0;
-	padding: 0;
-}
-#body .sidebar ul li p a {
-	color: #000;
-	text-decoration: underline;
-}
-#body .sidebar ul li p a:hover {
-	color: #4c8f97;
-}
+
 #footer {
 	background: #4c8f96;
 	border-top: 1px solid #9bd9e0;
@@ -764,102 +650,42 @@ tc{
 	padding: 27px 0 0;
 	text-align: center;
 }
-#footer div .connect {
-	background: #387a82;
-	float: right;
-	height: 18px;
-	margin: 0 20px 0 150px;
-	padding: 22px 20px;
-	overflow: hidden;
-	width: 144px;
-}
-#footer div .connect span {
-	color: #ededed;
-	display: inline-block;
-	float: left;
-	font-size: 12px;
-	height: 19px;
-	line-height: 21px;
-	margin: 0;
-	padding: 0 0 0 39px;
-}
-#footer div .connect a {
-	background: url(../images/icons.png) no-repeat;
-	display: block;
-	float: left;
-	height: 20px;
-	margin: 0 8px;
-	padding: 0;
-	text-indent: -99999px;
-	width: 20px;
-}
-#footer div .connect #twitter {
-	background-position: 0 -32px;
-}
-#footer div .connect #twitter:hover {
-	background-position: -25px -32px;
-}
-#footer div .connect #facebook {
-	background-position: 0 -57px;
-}
-#footer div .connect #facebook:hover {
-	background-position: -25px -57px;
-}
-#footer div .connect #googleplus {
-	background-position: 0 -82px;
-}
-#footer div .connect #googleplus:hover {
-	background-position: -25px -82px;
-}
-#footer div .connect #pinterest {
-	background-position: 0 -107px;
-}
-#footer div .connect #pinterest:hover {
-	background-position: -25px -107px;
-}
+
 
 
 <--RealCodex-->
 #body div .TABLE
 { 
-    align-self: center;
+   position: relative;
 }
 .Header{
-    width: inherit;
     padding-left: 40%;
 }
 table .thehead{
-    width: 50%;
     background-color: darkgoldenrod;
 }
 table thead th div{
     padding-left: 25px;
+    margin: inherit;
     float: left;
 }
 table  th
 { 
+    
     background: #3B3B3B;
     color: #FFF;
     text-align: left;
 }
 .factionkeywords ul{
-    padding: inherit;
+    padding: auto;
     margin-top: inherit;
     margin-left: 250px;
-    float: right;   
-}
-table .thead1{
-    
 }
 table h4{
     padding: inherit;
     margin: inherit;
     float:left;
 }
-table thead th{
-    text-align: left;
-}
-
 table tbody th{
     text-align: left;
 }
@@ -868,59 +694,46 @@ table thead th .p1{
     background: #302939;
 }
 table tbody td{
-    padding: inherit;
+    padding: auto;
     color: #47433F;
-    background: #c0b283;
     font-size: 12px;
+
 }
 table tbody .td1{
     color: #c0b283;
     background: #47433F;
     font-size: 12px;
-    width: 100%;
 }
 table tbody td ul{
     padding-left: 20%;
-    margin: inherit;
     margin-right: 165px;
     background: #47433F;
     color: #c0b283;
 }
-table tbody td b{
-    float: right;    
-}
+
 table thead tr th{
-    padding: inherit;
     color: #c0b283;
 }
-table thead tr th tb {
-    color: #E5E5DB;   
-}
 TABLE{
-    padding-right: 300px;
-    padding: inherit;
     background-color: #c0b283;  
 }
 div.TABLE{
-    margin-top: 10px;
-    width: 36.15%;
+    width: auto;
+    margin: 10%;
+    height: inherit;
     border-style: groove;
     border-width: 5px;
     border-top-left-radius: 10px;
 }
-table tbody td tb{
-    color: red; 
-    word-wrap: break-word;
-    text-align: right;
-    align-items: center;
-    float: right;
-}
+
 table thead td .wargear1{
+    width: inherit;
     background: #c0b283;
     color: #47433F;
 }
 table thead td {
     padding: inherit;
+    width: 100%;
 }
 .pagenum{
     padding-left: 50%;
@@ -929,4 +742,7 @@ table thead td {
 .cost{
     float: right;
     padding-left: 250px;
+}
+.thebod table{
+    min-width: 100%;
 }
