@@ -33,8 +33,6 @@ body {
 	line-height: 1;
 	font-size: 14px;
 	font-family: Arial, Helvetica, sans-serif;
-	margin: 0;
-	padding: 0;
     
 }
 #header {
@@ -76,37 +74,7 @@ body {
 	overflow: hidden;
 	padding: 114px 0 0;
 }
-#header .section ul li {
-	background: url(../images/bg-nav-right.gif) no-repeat top right;
-	display: inline-block;
-	float: left;
-	list-style: none;
-	margin: 0 10px;
-	padding: 0;
-}
-#header .section ul li a {
-	background: url(../images/bg-nav-left.gif) no-repeat top left;
-	color: #fff;
-	display: inline-block;
-	font-size: 16px;
-	height: 30px;
-	letter-spacing: 0.05em;
-	line-height: 30px;
-	margin: 0;
-	padding: 0 15px;
-	text-align: center;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-#header .section ul li a:hover {
-	color: #ccc;
-}
-#header .section ul li.selected {
-	background: url(../images/bg-nav-right-selected.gif) no-repeat top right;
-}
-#header .section ul li.selected a {
-	background: url(../images/bg-nav-left-selected.gif) no-repeat top left;
-}
+
 #header .article {
 	background: #fff;
 	border: 2px solid #5fb3bd;
@@ -135,10 +103,8 @@ body {
     border-style: groove;
     border-width: 10px;
     border-image: url(../images/background%20border.jpg) 30 stretch stretch;
-    margin: 0 auto;
-	min-height: 812px;
-	padding: 20px 0 50px;
-	width: 960px;
+    margin-left: 4%;
+    width: 90%;
 }
 #body > ul {
 	margin: 0;
@@ -183,17 +149,9 @@ body {
 	margin: 0;
 	padding: 0;
 }
-#body > ul li p a {
-	color: #464646;
-	text-decoration: underline;
-}
-#body > ul li p a:hover {
-	color: #252525;
-}
+
 #body > div {
-	margin: 0;
 	overflow: hidden;
-	padding: 50px 0 0;
 }
 #body > .more {
 	color: #464646;
@@ -320,7 +278,6 @@ body {
 	padding: 0 15px;
 	position: relative;
 }
-border: 5px solid #393939;// this was in the .sectio div
 #body div .section .article {
 	height: 100%;
 	margin-bottom: 25px;
@@ -359,9 +316,7 @@ border: 5px solid #393939;// this was in the .sectio div
 	font-size: 18px;
 	text-decoration: none;
 }
-#body div .section .article > a:hover {
-	color: #97d0d3;
-}
+
 #body div .section .newsletter {
 	height: 100%;
     width: 100%;
@@ -392,8 +347,7 @@ border: 5px solid #393939;// this was in the .sectio div
     color: darkslategrey;
 	font-size: 14px;
 	line-height: 24px;
-	margin: 0;
-	padding: 0px 0px;
+    
 	text-align: center;
 }
 #Xheader{
@@ -581,7 +535,6 @@ tc{
 }
 #body > .article p a {
 	color: #464646;
-	text-decoration: underline;
 }
 
 #body > .article ul {
@@ -658,6 +611,12 @@ tc{
 { 
    position: relative;
 }
+.mainlore p{
+    background-size: auto;
+    margin: inherit;
+    
+}
+
 .Header{
     padding-left: 40%;
 }
@@ -670,12 +629,26 @@ table thead th div{
     float: left;
 }
 table  th
-{ 
-    
+{  
     background: #3B3B3B;
     color: #FFF;
     text-align: left;
 }
+.section1{  
+    column-rule-color: #3B3B3B;
+    background-color: #3B3B3B;
+    color: #c0b283;
+    column-count: 2;
+    column-rule-style: solid;
+}
+.section1 p{
+    font-size: 20px;
+    padding: inherit;
+    padding-left: 25%;
+    padding-bottom: 15px;
+    width: 60%;
+}
+
 .factionkeywords ul{
     padding: auto;
     margin-top: inherit;
