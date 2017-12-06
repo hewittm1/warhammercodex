@@ -103,6 +103,7 @@ body {
     border-style: groove;
     border-width: 10px;
     border-image: url(../images/background%20border.jpg) 30 stretch stretch;
+    border-width: 100%;
     margin-left: 4%;
     width: 90%;
 }
@@ -223,8 +224,7 @@ body {
 }
 
 #body div .featured {
-	background: white;
-    background-image: url(../images/100px-Crystal_Guardian%20.jpg);
+    background-image: url(../images/100px-Crystal_Guardian%20.jpg.png);
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: center;
@@ -362,7 +362,7 @@ body {
     width: 98%;
     border-width: 7px;
     
-    border-image: url(../images/background%20border.jpg) 30 stretch stretch;
+    border-image: url(../images/50a1007c9e009fc3d97cc69cf015328e.jpg.png) 30 stretch stretch;
     background-color: #393939;
 	margin: 0;
 	padding: 25px 0px;
@@ -718,4 +718,23 @@ table thead td {
 }
 .thebod table{
     min-width: 100%;
+}
+.perlumiteIMG{
+        background-image: url(../images/latest.jpg);
+     background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+	
+	min-height: 450px;
+	padding: 45px 15px 54px;
+	position: relative;
+	width: 350px;
+    margin-left: 25px;;
+
+}
+.perlumiteTXT{
+    color: #c0b283;
+    letter-spacing: 1px;
+    word-spacing: 1.5px;
+    
 }
