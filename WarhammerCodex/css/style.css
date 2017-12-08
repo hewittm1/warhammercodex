@@ -30,14 +30,16 @@
 body {
     background-image:url(../images/codex%20background%201.jpg);
     border-style: solid;
-    border-width: 100px;
-    border-image: url(../images/50a1007c9e009fc3d97cc69cf015328e.jpg.png);
-    border-image-slice: 25%;
+    border-width: 75px;
+    border-image-outset: 100px;
+    border-image: url(../images/SkullFrame.png) round round;
+    border-image-slice: 20%;
+    margin: 0;
+    padding: inherit;
     background-size: cover;
 	font-family: Arial  sans-serif;
-    border-bottom-width: 50%;
-    border-right-width: 50%;
 }
+
 #header {
 	margin: 0 auto;
 	padding: 0;
@@ -103,10 +105,7 @@ body {
 	padding: 110px 30px 30px;
 }
 #body {
-    border-style: solid;
-    border-width: 40px;
-    border-image: url(../images/50a1007c9e009fc3d97cc69cf015328e.jpg.png) 100%;
-    border-image-slice: 15%;
+
 }
 #body > ul {
 	margin: 0;
@@ -779,7 +778,6 @@ table thead td {
     width: 100%;
     background: linear-gradient(rgba(59, 59, 59, 0.95), rgba(59, 59, 59, 0.25));
 	margin: 0;
-    margin-left: .55%;
 	padding: 25px 0px;
 	text-align: center;
 }
