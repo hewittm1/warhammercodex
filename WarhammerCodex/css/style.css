@@ -402,30 +402,7 @@ tc{
     font-family:serif; 
     
 }
-.relic h1{
-    font-family: fantasy;
-    font-size: 20px;
-    font-size: 20px;
-    color: darkslategrey;
-    width: 100%;
-}
-.relic1{
-    color: black;
-    font-style: italic;
-    width: 100%;
-    height: 100%;
-    position: relative;  
-}
-.relic1 p{
-     font-family:serif; 
-}
-.relic1 h1{
-    font-family: fantasy;
-    font-size: 20px;
-    font-size: 20px;
-    color: darkslategrey;
-    width: 100%;
-}
+
 .relic2{
     color: black;
     font-style: italic;
@@ -805,4 +782,39 @@ table thead td {
     padding-left: 1%;
     padding-top: 1%;
     padding-bottom: 1.5%;
+}
+.fillIMG img{
+    width: 80%;
+    margin-left: 10%;
+    max-height: 90px;
+    
+}
+
+.relic1{
+    color: #c0b283;
+    width: 100%;
+    height: 100%;
+    border: solid 5px;
+    border-radius: 10%;
+}
+
+.relic1 p{
+     font-family:serif; 
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.relic1 b{
+    font-family: sans-serif;
+    font-size: 14px;
+    word-spacing:2.5px;
+    letter-spacing: 1.5px;
+    color: #c0b269;
+}
+.relic1 h1{
+    font-family: fantasy;
+    margin-left: 25%;
+    color: #c0b269;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    width: 100%;
 }
