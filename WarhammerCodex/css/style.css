@@ -824,10 +824,8 @@ table thead td {
 .fillIMG img{
     width: 80%;
     margin-left: 10%;
-    max-height: 90px;
-    
+    max-height: 90px; 
 }
-
 .relic1{
     color: #c0b283;
     width: 100%;
@@ -835,7 +833,6 @@ table thead td {
     border: solid 5px;
     border-radius: 10%;
 }
-
 .relic1 p{
      font-family:serif; 
     font-size: 13px;
@@ -855,4 +852,30 @@ table thead td {
     font-size: 25px;
     letter-spacing: 1.5px;
     width: 100%;
+}
+.PerlumiteTXT1 p{
+     font-size: 16px;
+    background: linear-gradient(rgba(59, 59, 59, 0.25), rgba(59, 59, 59, 0.95));
+    color: #c0b283;
+    letter-spacing: 1.5px;
+    word-spacing:5px;
+    width: 45%;
+    column-count: 2;
+    padding-left: 1%;
+    padding-top: 1%;
+    margin-left: 2%;
+    padding-bottom: 1.5%;
+}
+.LudemTXT1 p{
+      font-size: 16px;
+    background: linear-gradient(rgba(59, 59, 59, 0.25), rgba(59, 59, 59, 0.95));
+    color: #c0b283;
+    letter-spacing: 1.5px;
+    word-spacing:5px;
+    margin-left: 50%;
+    width: 45%;
+    column-count: 2;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1.5%;
 }
