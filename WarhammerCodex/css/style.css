@@ -35,7 +35,6 @@ body {
     border-image: url(../images/SkullFrame.png) round round;
     border-image-slice: 20%;
     margin: 0;
-    padding: inherit;
     background-size: cover;
 	font-family: Arial  sans-serif;
 }
@@ -719,7 +718,7 @@ table thead td {
     padding-top: 1%;
     padding-bottom: 1.5%;
     background: linear-gradient(rgba(59, 59, 59, 0.28), rgba(59, 59, 59, 0.4));
-    background: linear-gradient(to right,rgba(59, 59, 59, 0.35), rgba(59, 59, 59, 0.35));
+    background: linear-gradient(to left,rgba(59, 59, 59, 0.35), rgba(59, 59, 59, 0.35));
     letter-spacing: 1.5px;
     word-spacing: 5px;
     column-count: 2;
@@ -743,7 +742,8 @@ table thead td {
 }
 
 .ANsec {
-    background: linear-gradient(rgba(59, 59, 59, 0.25), rgba(59, 59, 59, 0.95));
+    background: linear-gradient(rgba(59, 59, 59, 0), rgba(59, 59, 59, 0.95));
+    background: linear-gradient(to left,rgba(59, 59, 59, .05), rgba(59, 59, 59, 0.95));
     width: 100%;
 }
 
@@ -753,7 +753,18 @@ table thead td {
     font-family:fantasy;
 	line-height: 100%;
     width: 100%;
-    background: linear-gradient(rgba(59, 59, 59, 0.95), rgba(59, 59, 59, 0.25));
+    background: rgba(59, 59, 59,0.48);
+	margin: 0;
+	padding: 25px 0px;
+	text-align: center;
+}
+.Resheader p{
+    color: #c0b283;
+	font-size: 300%;
+    font-family:fantasy;
+	line-height: 100%;
+    width: 100%;
+    background: rgba(59, 59, 59, 0.15);
 	margin: 0;
 	padding: 25px 0px;
 	text-align: center;
@@ -768,6 +779,7 @@ table thead td {
     column-count: 2;
     padding-left: 1%;
     padding-top: 1%;
+    margin-left: 2%;
     padding-bottom: 1.5%;
 }
 .ResonitesTXT1 p{
