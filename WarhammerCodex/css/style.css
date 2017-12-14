@@ -753,7 +753,7 @@ table thead td {
     font-family:fantasy;
 	line-height: 100%;
     width: 100%;
-    background: rgba(59, 59, 59,0.48);
+    background: linear-gradient(to left,rgba(59, 59, 59,0.15), rgba(59,59,59,.9));
 	margin: 0;
 	padding: 25px 0px;
 	text-align: center;
@@ -793,6 +793,32 @@ table thead td {
     column-count: 2;
     padding-left: 1%;
     padding-top: 1%;
+    padding-bottom: 1.5%;
+}
+.AdNeoTXT1 p{
+    font-size: 16px;
+    background: linear-gradient(rgba(59, 59, 59, 0.25), rgba(59, 59, 59, 0.95));
+    color: #c0b283;
+    letter-spacing: 1.5px;
+    word-spacing:5px;
+    margin-left: 50%;
+    width: 45%;
+    column-count: 2;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1.5%;
+}
+.VitreomTXT1 p{
+    font-size: 16px;
+    background: linear-gradient(rgba(59, 59, 59, 0.25), rgba(59, 59, 59, 0.95));
+    color: #c0b283;
+    letter-spacing: 1.5px;
+    word-spacing:5px;
+    width: 45%;
+    column-count: 2;
+    padding-left: 1%;
+    padding-top: 1%;
+    margin-left: 2%;
     padding-bottom: 1.5%;
 }
 .fillIMG img{
