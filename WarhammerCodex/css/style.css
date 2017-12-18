@@ -867,7 +867,7 @@ table thead td {
     padding-bottom: 1.5%;
 }
 .LudemTXT1 p{
-      font-size: 16px;
+    font-size: 16px;
     background: linear-gradient(rgba(59, 59, 59, 0.25), rgba(59, 59, 59, 0.95));
     color: #c0b283;
     letter-spacing: 1.5px;
@@ -878,4 +878,70 @@ table thead td {
     padding-left: 1%;
     padding-top: 1%;
     padding-bottom: 1.5%;
+}
+.BattleS h1{
+    padding-left: 33%
+}
+.BattleBody{
+    column-count: 3;
+    column-fill:auto;
+    column-span: all;
+    column-gap: normal;
+    
+}
+.Details p{
+    height: 100%;
+    width: 70%;
+    padding-top: 5px;
+}
+.Details{
+    padding: 1%;
+}
+.Rules2Crystal{
+    margin-bottom: 14%;
+    padding-right: 10%;
+    padding-left: 10%
+}
+.Rules{
+    padding-left: 10%;
+}
+.ScenarioBody{
+    background-image:url(../images/codex%20background%201.jpg);
+    border-width: 100px;
+    border-image: url(../images/50a1007c9e009fc3d97cc69cf015328e.jpg.png) stretch round;
+    border-image-slice: 8%;
+    background-size: cover;
+    background: rgba(59, 59, 59, 0.7);
+	font-family: Arial  sans-serif;
+    color: #c0b283;
+}
+.BattleStrat{
+    text-align: center;
+    color: #c0b283;
+    width: 100%;
+    height: 100%;
+    border: solid 5px;
+    border-radius: 10%;   
+    background: rgba(59, 59, 59, 0.7);
+    padding-bottom: 10%;
+    margin-bottom: 50%;
+}
+.BattleStrat .Details p{
+    padding-left: 15%;
+}
+.BattleStrat h1{  
+    padding:auto;
+}
+.BattleS {
+    padding-bottom: 2%;
+    font-size: 25px;
+    color: #eeee;
+}
+.BattleStrat .Details{
+    border: groove;
+    width: 80%;
+    margin-left: 10%;
+    padding: auto;
+    margin-top: 1%;
+    padding-bottom: 1%;
 }
