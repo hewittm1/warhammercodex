@@ -945,3 +945,41 @@ table thead td {
     margin-top: 1%;
     padding-bottom: 1%;
 }
+.BattleStrat1{
+    text-align: center;
+    color: #c0b283;
+    width: 100%;
+    height: 100%;
+    border: solid 5px;
+    border-radius: 10%;   
+    background: rgba(59, 59, 59, 0.7);
+    padding-bottom: 10%;
+    margin-bottom: 60%;
+}
+.BattleStrat1 .Details{
+    border: groove;
+    width: 80%;
+    margin-left: 10%;
+    padding: auto;
+    margin-top: 1%;
+    padding-bottom: 1%;
+}
+.BattleStrat2{
+    text-align: center;
+    color: #c0b283;
+    width: 100%;
+    height: 100%;
+    border: solid 5px;
+    border-radius: 10%;   
+    background: rgba(59, 59, 59, 0.7);
+    padding-bottom: 10%;
+    margin-bottom: 20%;
+}
+.BattleStrat2 .Details{
+    border: groove;
+    width: 80%;
+    margin-left: 10%;
+    padding: auto;
+    margin-top: 1%;
+    padding-bottom: 1%;
+}
