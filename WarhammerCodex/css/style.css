@@ -636,10 +636,7 @@ table h4{
 table tbody th{
     text-align: left;
 }
-table thead th .p1{
-    color: white;
-    background: #302939;
-}
+
 table tbody td{
     padding: auto;
     color: #47433F;
@@ -1007,17 +1004,19 @@ table thead td {
 .tact {
     padding: inherit;
     margin-bottom: 2.2%;
+    margin-top: 2%;
     margin-left: 25%;
-    padding-top: 1%;
+    padding-top: auto;
     padding-bottom: auto;
     color: #c0b283;
-    width: 51.5%;
+    width: 53%;
     border: solid 3px;
     border-radius: 5%;
     text-align: center;
     background-color: rgba(0,0,0,.35);
     font-family: serif;
-    min-height: 200px;
+    min-height: 205px;
+    min-height: 207px;
 }
 .tact b{
     font-weight: 100;
@@ -1031,14 +1030,14 @@ table thead td {
     width: 100%;
 }
 .TO {
-    width: auto;
-    min-height: 500px;
+    width: 100%;
+    min-height: 600px;
     background: rgba(0,0,0,.6);    
 	border-style: groove;
 	border-radius: 4px;
     column-count: 2;
     padding: 2%;
-    column-fill: initial;
+    column-fill: balance;
 }
 .TOB{
     background-image:url(../images/bbb.jpg);
@@ -1058,6 +1057,19 @@ table thead td {
     width: 100%;
     font-family: serif;
     padding-bottom: 4%;
+    column-count: 2;
+    
+}
+.T b{
+    font-family: serif;
+    font-weight: 100;
+    padding: 1%;
+    text-align: center;
+}
+.T p{
+    text-align: center;
+    padding: 1%;
+    text-align: center;
 }
 .Ttable{
     font-family: serif;
@@ -1067,8 +1079,31 @@ table thead td {
     font-family: serif;
     font-weight: 100;
 }
-.data-table{
-    margin-left: 50%;
-    width: 49.4%;
-    padding-bottom: 
+.WTheader{
+    font-family: serif;
+    margin-bottom: 1%;
+    margin-top: auto;
+    color: rgba(59,59,59,1);
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    width: 100%;
+}
+.D6{
+    font-family: serif;
+    font-weight: 700;
+}
+.traits{
+    width: auto;
+    min-height: 500px;
+    background: rgba(0,0,0,.4);    
+	border-style: groove;
+	border-radius: 4px;
+    padding: 2%;
+}
+.section1 h1{
+    text-align: center;
+}
+.data-tact{
+    margin-top: 10%;
+    width: 100%;
 }
