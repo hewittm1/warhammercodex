@@ -592,13 +592,14 @@ tc{
 }
 
 .Header{
-    padding-left: 40%;
+    text-align: left;
 }
 table .thehead{
     background-color: darkgoldenrod;
 }
 table thead th div{
-    padding-left: 25px;
+    width: auto;
+    padding-left: 2%;
     margin: inherit;
     float: left;
 }
@@ -657,6 +658,9 @@ table tbody td ul{
 
 table thead tr th{
     color: #c0b283;
+    font-family: serif;
+    font-size: 20px;
+    text-align: center;
 }
 TABLE{
     background-color: #c0b283;  
@@ -685,7 +689,9 @@ table thead td {
 }
 .cost{
     float: right;
-    padding-left: 250px;
+    text-align: center;
+    margin-right: 25%;
+    
 }
 .thebod table{
     min-width: 100%;
@@ -1106,4 +1112,7 @@ table thead td {
 .data-tact{
     margin-top: 10%;
     width: 100%;
+}
+.POINTSVALUES{
+    column-count: 2;
 }
