@@ -217,9 +217,6 @@ body {
 	color: #252525;
 }
 #body div div {
-	float: left;
-	margin: 0 10px;
-	padding: 0;
 }
 
 #body div .featured {
@@ -277,6 +274,7 @@ body {
 	padding: 0 15px;
 	position: relative;
 }
+
 #body div .section .article {
 	height: 100%;
 	margin-bottom: 25px;
@@ -828,10 +826,12 @@ table thead td {
 }
 .relic1{
     color: #c0b283;
-    width: 100%;
+    width: 50%;
     height: 100%;
-    border: solid 5px;
-    border-radius: 10%;
+    border: solid 3px;
+    border-radius: 5%;
+    text-align: center;
+    padding-left: 50%;
 }
 .relic1 p{
      font-family:serif; 
@@ -843,15 +843,36 @@ table thead td {
     font-size: 14px;
     word-spacing:2.5px;
     letter-spacing: 1.5px;
-    color: #c0b269;
+    color: #c0b269;    
+}
+.strat{
+    width: auto;
+    height: auto;
+    background: #393939;
+	border-style: groove;
+	border-radius: 4px;
+    column-count: 2;
 }
 .relic1 h1{
-    font-family: fantasy;
-    margin-left: 25%;
+    font-family: serif;
     color: #c0b269;
     font-size: 25px;
     letter-spacing: 1.5px;
     width: 100%;
+}
+.cp p{
+    border: solid 2px;
+    border-radius: 25%;
+    background-color: rgba(59,59,59,.7);
+    width: 8%;
+    margin: auto;
+    padding: .25%;
+    font-size: 20px;
+    font-family: serif;
+    font-weight: 100;
+}
+.cp{
+    padding-bottom: 2%;
 }
 .PerlumiteTXT1 p{
      font-size: 16px;
@@ -982,4 +1003,72 @@ table thead td {
     padding: auto;
     margin-top: 1%;
     padding-bottom: 1%;
+}
+.tact {
+    padding: inherit;
+    margin-bottom: 2.2%;
+    margin-left: 25%;
+    padding-top: 1%;
+    padding-bottom: auto;
+    color: #c0b283;
+    width: 51.5%;
+    border: solid 3px;
+    border-radius: 5%;
+    text-align: center;
+    background-color: rgba(0,0,0,.35);
+    font-family: serif;
+    min-height: 200px;
+}
+.tact b{
+    font-weight: 100;
+}
+.tact h1{
+    margin-bottom: 1%;
+    margin-top: auto;
+    color: #c0b269;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    width: 100%;
+}
+.TO {
+    width: auto;
+    min-height: 500px;
+    background: rgba(0,0,0,.6);    
+	border-style: groove;
+	border-radius: 4px;
+    column-count: 2;
+    padding: 2%;
+    column-fill: initial;
+}
+.TOB{
+    background-image:url(../images/bbb.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    border-style: solid;
+    border-width: 75px;
+    border-image-outset: 100px;
+    border-image: url(../images/SkullFrame.png) round round;
+    border-image-slice: 20%;
+}
+.T{
+    text-align: left;
+    color: #c0b269;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    width: 100%;
+    font-family: serif;
+    padding-bottom: 4%;
+}
+.Ttable{
+    font-family: serif;
+    font-weight: 100;
+}
+.Ttable1{
+    font-family: serif;
+    font-weight: 100;
+}
+.data-table{
+    margin-left: 50%;
+    width: 49.4%;
+    padding-bottom: 
 }
