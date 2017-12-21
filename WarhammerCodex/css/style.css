@@ -969,9 +969,6 @@ table thead td {
 	font-family: Arial  sans-serif;
     color: #c0b283;
 }
-.bbbb{
-
-}
 .BattleStrat{
     text-align: center;
     color: #c0b283;
@@ -1041,12 +1038,11 @@ table thead td {
     padding-bottom: 1%;
 }
 .tact {
-    padding: inherit;
-    margin-bottom: 2.2%;
-    margin-top: 2%;
-    margin-left: 25%;
-    padding-top: auto;
-    padding-bottom: auto;
+    padding: auto;
+    padding-top: 2%;
+    margin: inherit;
+    margin-top: 1%;
+    margin-bottom: 5.55%;
     color: #c0b283;
     width: 53%;
     border: solid 3px;
@@ -1056,6 +1052,9 @@ table thead td {
     font-family: serif;
     min-height: 205px;
     min-height: 207px;
+    align-items: auto;
+    align-self: baseline;
+    align-content: space-around;
 }
 .tact b{
     font-weight: 100;
@@ -1069,14 +1068,14 @@ table thead td {
     width: 100%;
 }
 .TO {
-    width: 100%;
-    min-height: 600px;
+    width: 95%;
+    min-height: 1000px;
     background: rgba(0,0,0,.6);    
 	border-style: groove;
 	border-radius: 4px;
     column-count: 2;
-    padding: 2%;
-    column-fill: balance;
+    column-fill: auto;
+    margin: auto;
 }
 .TOB{
     background-image:url(../images/bbb.jpg);
@@ -1103,16 +1102,18 @@ table thead td {
     font-family: serif;
     font-weight: 100;
     padding: 1%;
-    text-align: center;
+    text-align: left;
 }
 .T p{
-    text-align: center;
+    text-align: left;
     padding: 1%;
-    text-align: center;
+    font-size: 20px;
 }
 .Ttable{
     font-family: serif;
     font-weight: 100;
+    padding: auto;
+    margin: auto;
 }
 .Ttable1{
     font-family: serif;
