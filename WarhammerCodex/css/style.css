@@ -330,15 +330,7 @@ body {
 	padding: 0 15px;
 	position: relative;
 }
-#body div .section .newsletter img {
-	display: block;
-	left: 0;
-	margin: 0;
-	padding: 0;
-	position: absolute;
-	top: -13px;
-	z-index: 5;
-}
+
 
 #body div .Sheader p{
     color: darkslategrey;
@@ -348,21 +340,21 @@ body {
 	text-align: center;
 }
 #Xheader{
-    margin-left: 1%;
+    text-align: center;
+    width: 100%;
+    text-decoration-line: underline;
+    text-underline-position: auto;
+    text-decoration-style: dashed;
+    text-decoration-skip:ink;
 }
 #Xheader p{
     color: #c0b283;
-	font-size: 300%;
-    font-family:fantasy;
+	font-size: 450%;
+    font-family:serif;
 	line-height: 24px;
-    border:  solid;
-    width: 98%;
-    border-width: 7px;
-    
-    border-image: url(../images/50a1007c9e009fc3d97cc69cf015328e.jpg.png) 30 stretch stretch;
-    background-color: #393939;
+    width: 100%;
 	margin: 0;
-	padding: 25px 0px;
+	padding: 2.5%;
 	text-align: center;
 }
 
@@ -633,6 +625,7 @@ table  th
     text-align: left;
 }
 .section1{  
+    font-family: serif;
     column-rule-color: #3B3B3B;
     background-color: rgba(59,59,59,.7);
     color: #c0b283;
@@ -640,6 +633,10 @@ table  th
     column-rule-style: solid;
 }
 .section1 p{
+    font-family: serif;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    word-spacing:5px;
     font-size: 20px;
     padding: inherit;
     padding-left: 25%;
@@ -1261,4 +1258,17 @@ table thead td {
 }
 .wargear li{
     font-size: 15px;
+}
+.EXVitreomTXT1 p{
+    font-size: 16px;
+    background: linear-gradient(rgba(49, 49, 49, 0.45), rgba(69, 69, 69, 1));
+    color: #c0b283;
+    letter-spacing: 1.5px;
+    word-spacing:5px;
+    width: 45%;
+    column-count: 2;
+    padding-left: 1%;
+    padding-top: 1%;
+    margin-left: 2%;
+    padding-bottom: 1.5%;
 }
