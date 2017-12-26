@@ -102,6 +102,9 @@ footer{
 }
 .Faction{
     background-color: white;
+    column-count: 2;
+    padding: 0;
+    margin: 0;
 }
 .table{
     padding: .15%;
@@ -116,4 +119,10 @@ footer{
     padding: 0;
     padding-bottom: 15%;
     margin: 0;
+}
+.Psyker{
+    column-count: 2;
+}
+.Keywords{
+    column-count: 2;
 }
