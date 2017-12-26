@@ -126,3 +126,12 @@ footer{
 .Keywords{
     column-count: 2;
 }
+.Strat{
+    text-align: center;
+    width: auto;
+    word-wrap: break-word;
+    max-width: 20%;
+    padding: 1%;
+    border-style: double;
+}
+
