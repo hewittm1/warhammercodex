@@ -10,6 +10,9 @@ body{
     
 }
 .Body{
+    max-height: 1000px;
+    min-height: 1000px;
+    max-width: 100%;
     text-align: left;
     background: radial-gradient(rgba(55,65,75,.5), rgba(45,60,50, 1));
 }
@@ -18,6 +21,11 @@ body{
     letter-spacing: 2.5px;
     color: rgba(20,20,20,1);
     padding: 1%;
+    max-height: inherit;
+    max-width: inherit;
+}
+.Details{
+    column-count: 2;
 }
 .pagenum a{
     padding: 1%;
@@ -32,4 +40,65 @@ body{
 }
 footer{
     text-align: center;
+}
+.data-table {
+    column-count: 10;
+    text-align: center;
+    background-color: white;
+    column-rule-style: groove;
+}
+.data-table p{
+    max-width: inherit;
+    margin: inherit;
+}
+.data-info {
+    column-count: 10;
+    text-align: center;
+    column-rule-style: groove;
+}
+.data-info p{
+    max-width: inherit;
+    margin: auto;
+}
+.desc{
+    max-width: inherit;
+    background-color: white;
+}
+.Weapon-Info{
+    column-count: 7;
+    text-align: center;
+    column-rule-style: groove;
+}
+.Weapon-Info p{
+    margin: auto;
+}
+.Weapon-stats{
+    text-align: center;
+    column-count: 7;
+    background-color: white;
+    column-rule-style: groove;
+}
+.name{
+    margin: inherit;
+    text-align: left;
+}
+.Wargear{
+    column-count: 2;
+    padding: 0;
+    margin: 0;
+}
+.Wargear h1{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5%;
+}
+.Wargear li{
+    text-align: left;
+}
+.Abilities {
+    background-color: white;
+}
+.Faction{
+    background-color: white;
 }
