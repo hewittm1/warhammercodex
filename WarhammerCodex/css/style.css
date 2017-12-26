@@ -80,6 +80,7 @@ footer{
 }
 .name{
     margin: inherit;
+    padding: inherit;
     text-align: left;
 }
 .Wargear{
@@ -101,4 +102,18 @@ footer{
 }
 .Faction{
     background-color: white;
+}
+.table{
+    padding: .15%;
+    border-style: double;
+    border-width: 5px;
+    border-radius: 15px;
+}
+.Abilities{
+    column-count: 2;
+}
+.Abilities h1{
+    padding: 0;
+    padding-bottom: 15%;
+    margin: 0;
 }
