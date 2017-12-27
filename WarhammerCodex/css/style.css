@@ -24,6 +24,9 @@ body{
     max-height: inherit;
     max-width: inherit;
 }
+.Header{
+    margin: 1%;
+}
 .Details{
     column-count: 2;
 }
@@ -176,4 +179,24 @@ footer{
     margin: 0;
     padding: 0;
 }
+.TheKeywords{
+    font-family: serif;
+    max-width: 40%;
+    padding-bottom: 5%;
+    text-align: left;
+}
+.KeyDesc{
+    margin: inherit;
+    text-align: center;
+    font-family: serif;
+    padding: 1%;
+}
 
+.KeyDesc p{
+    text-align: center;
+    font-family: serif;
+    max-width: 40%;
+    margin-left: 30%;
+    font-weight: 100;
+    padding: 1%;
+}
