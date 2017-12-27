@@ -165,10 +165,13 @@ footer{
     column-count: 2;
 }
 .Trait{
-    max-width: 45%;
+    max-width: 50%;
     padding: 1%;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 10%;
+}
+.Trait1{
+    
 }
 .Trait p{
     font-style: italic;
