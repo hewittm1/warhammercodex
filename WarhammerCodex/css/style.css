@@ -14,7 +14,7 @@ body{
     min-height: 1000px;
     max-width: 100%;
     text-align: left;
-    background: radial-gradient(rgba(55,65,75,.5), rgba(45,60,50, 1));
+    background: radial-gradient(rgba(202,216,240,.5), rgba(84,101,160, 1));
 }
 .Content{
     word-spacing: 1.5px;
@@ -172,6 +172,12 @@ footer{
 }
 .Trait1{
     
+}
+.UnitTable{
+    max-width: inherit;
+    padding: 1%;
+    margin: 1%;
+    margin-left: 3%;
 }
 .Trait p{
     font-style: italic;
