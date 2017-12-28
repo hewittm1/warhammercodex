@@ -32,9 +32,6 @@ body{
     background: radial-gradient(rgba(202,216,240,.5), rgba(84,101,160, 1));
 
 }
-.Header{
-    margin: 1%;
-}
 .Details{
     column-count: 2;
 }
@@ -248,14 +245,43 @@ footer{
     column-count: 2;
     width: 100%;
     font-weight: 100;
+    letter-spacing: 1.5px;
+    word-spacing: 5px;
     font-family: serif;
 }
 .Scenario h2{
     text-align: left;
-    font-size: 20px;
+    font-size: 25px;
     margin: 0;
 }
+.Scenario h2 p{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: serif;
+}
 h2.VictoryConditions{
-    
+    margin-top: 10%;
+}
+.ScenarioStrat{
+    text-align: center;
+    word-wrap: break-word;
+    max-width: 40%;
+    min-width: 40%;
+    padding: 1%;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: .5%;
+    border-style: double;
+}
+.ScenarioStrat h2{
+    text-align: center;
+    font-family: serif;
+    font-weight: 600;
+}
+h2.Cost{
+    font-family: serif;
+    font-size: 20px;
+    text-align: left;
+    width: 15%;
 }
 
