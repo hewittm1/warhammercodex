@@ -16,6 +16,8 @@ body{
     max-width: 100%;
     text-align: left;
     border: solid;
+    letter-spacing: 1.5px;
+    word-spacing: 5px;
     border-width: 50px;
     border-image: url(../images/Border.png) round round;
     border-image-slice: 20%;
@@ -32,6 +34,10 @@ body{
     max-width: inherit;
     background-color: inherit;
     background-repeat: repeat;
+    background-color: rgba(0,0,0,.2);
+    border: double;
+    border-width: medium;
+    border-color: white;
 }
 .Details{
     column-count: 2;
@@ -55,6 +61,13 @@ footer{
     font-family: serif;
     font-size: 25px;
     text-align: center;
+}
+.Header p{
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    word-spacing: 5px;
+    margin: 0;
+    font-family: serif;
 }
 .data-table {
     column-count: 10;
@@ -129,6 +142,10 @@ footer{
 }
 .Abilities{
     column-count: 2;
+    column-count: 2;
+    max-height: 800px;
+    background-color: inherit;
+    width: 100%;
 }
 .Abilities h1{
     padding: 0;
@@ -144,13 +161,16 @@ footer{
 .Strat{
     text-align: center;
     word-wrap: break-word;
-    max-width: 40%;
+    max-width: 90%;
     min-width: 40%;
     padding: 1%;
     margin: auto;
-    margin-bottom: 5%;
-    margin-top: .5%;
+    margin-top: %;
     border-style: double;
+}
+.Strat p{
+    font-size: 15px;
+    font-style: italic;
 }
 .Strat h1{
     margin: 0;
@@ -281,7 +301,6 @@ footer{
     font-family: serif;
 }
 h2.VictoryConditions{
-    margin-top: 10%;
 }
 .ScenarioStrat{
     text-align: center;
@@ -290,7 +309,7 @@ h2.VictoryConditions{
     min-width: 40%;
     padding: 1%;
     margin: auto;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     margin-top: .5%;
     border-style: double;
 }
@@ -298,6 +317,8 @@ h2.VictoryConditions{
     text-align: center;
     font-family: serif;
     font-weight: 600;
+    padding: 0;
+    margin: 0;
 }
 h2.Cost{
     font-family: serif;
@@ -305,18 +326,10 @@ h2.Cost{
     text-align: left;
     width: 15%;
 }
-.Abilities{
-    column-count: 2;
-    max-height: 800px;
-    background-color: inherit;
-    border: solid;
-    border-color: white;
-    border-width: medium;
-    width: 100%;
-}
 .Ability{
-    max-width: 80%;
-    margin: 5%;
+    text-align: center;
+    max-width: 50%;
+    margin: auto;
     padding: 1%;
 }
 .Ability h2{
@@ -361,4 +374,67 @@ html{
 .greaterIgnia{
     width: 85%;
 }
-
+.Quartz{
+    width: 100%;
+}
+.UnitTable img{
+    margin: 0;
+    max-width: 70%;
+}
+.ContentHistory{
+    column-count: 3;
+    letter-spacing: 1.5px;
+    word-spacing: 5px;
+    font-family: serif;
+    font-weight: 100;
+    column-rule-style: double;
+    background-color: rgba(0,0,0,.2);
+    padding: .5%;
+    border: double;
+    border-width: medium;
+    border-color: white;
+}
+.ContentHistory b{
+    font-size: 20px;
+}
+.ContentHistory h2{
+    font-size: 25px;
+}
+.ContentHistory h1{
+    font-size: 35px;
+}
+.Tact{
+    font-family: serif;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    word-spacing: 5px;
+    font-size: 20px;
+}
+.Tact p{
+    width: 50%;
+}
+.Thead{
+    margin: auto;
+    column-count: 2;
+    width: 40%;
+    padding: 1%;
+    border: double;
+    border-width: thin;
+    border-color: white;
+}
+.Tacts{
+    column-count: 2;
+    margin: 1%;
+}
+.Tacts b{
+    font-size: 18px;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+.Tacts h1{
+    margin: 0;
+}
+.Tacts p{
+    margin: 0;
+}
