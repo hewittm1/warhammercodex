@@ -179,9 +179,7 @@ footer{
     margin: auto;
     margin-top: 10%;
 }
-.Trait1{
-    
-}
+
 .UnitTable{
     text-align: center;
     max-width: inherit;
@@ -196,6 +194,9 @@ footer{
 .Trait h1{
     margin: 0;
     padding: 0;
+}
+.Trait p{
+    margin-bottom: 3%;
 }
 .TheKeywords{
     font-family: serif;
@@ -241,5 +242,20 @@ footer{
     font-weight: 100;
     margin: 1%;
     padding: 1%;
+}
+.Scenario{
+    max-height: 1000px;
+    column-count: 2;
+    width: 100%;
+    font-weight: 100;
+    font-family: serif;
+}
+.Scenario h2{
+    text-align: left;
+    font-size: 20px;
+    margin: 0;
+}
+h2.VictoryConditions{
+    
 }
 
