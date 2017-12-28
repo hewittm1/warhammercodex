@@ -218,4 +218,28 @@ footer{
     font-weight: 100;
     padding: 1%;
 }
+.PsykerTable{
+    text-align: center;
+    margin: 1%;
+    font-family: serif;
+}
+.PsykerTable h1, h2{
+    font-family: serif;
+    font-weight: 600;
+    margin: 1%;
+    padding: 0;
+}
+.Psy {
+    margin: 1.5%;
+    text-align: center;
+    padding: .5%;
+}
+.Psy h1{
+}
+.Psy b{
+    text-align: center;
+    font-weight: 100;
+    margin: 1%;
+    padding: 1%;
+}
 
