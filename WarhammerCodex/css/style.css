@@ -15,13 +15,14 @@ body{
     min-height: 1000px;
     max-width: 100%;
     text-align: left;
-    background-image: url(../images/codex%20background%201.jpg);
-    background-repeat: repeat;
     border: solid;
     border-width: 50px;
     border-image: url(../images/Border.png) round round;
     border-image-slice: 20%;
+    background-color: inherit;  
+
 }
+
 .Content{
     word-spacing: 1.5px;
     letter-spacing: 2.5px;
@@ -29,8 +30,8 @@ body{
     padding: 1%;
     max-height: 1000px;
     max-width: inherit;
-    background: radial-gradient(rgba(202,216,240,.5), rgba(84,101,160, 1));
-
+    background-color: inherit;
+    background-repeat: repeat;
 }
 .Details{
     column-count: 2;
@@ -283,5 +284,55 @@ h2.Cost{
     font-size: 20px;
     text-align: left;
     width: 15%;
+}
+.Abilities{
+    column-count: 2;
+    max-height: 800px;
+    background-color: inherit;
+    border: solid;
+    border-color: white;
+    border-width: medium;
+    width: 100%;
+}
+.Ability{
+    max-width: 80%;
+    margin: 5%;
+    padding: 1%;
+}
+.Ability h2{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.Ability p{
+    margin: 0;
+    margin-bottom: 1%;
+    font-style: italic;
+    padding: 0;
+    font-size: 15px;
+    text-align: center;
+}
+html{
+    background: radial-gradient(rgba(8,216,240,.3), rgba(84,101,160, 1));
+}
+.Deployment img{
+    width: 65%;   
+
+}
+.Deployment{
+    margin: 1%;
+}
+.Deployments{
+    column-count: 2;
+    max-height: 800px;
+    margin: 1%;
+    padding: 1%;
+}
+.Deployment p{
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    font-family: serif;
+    font-weight: 900;
 }
 
