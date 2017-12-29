@@ -4,7 +4,7 @@ body{
 }
 ///////////////////////////////////////////////////
 .previous{
-    color: red;
+    
 }
 .next{
     
@@ -22,6 +22,8 @@ body{
     border-image: url(../images/Border.png) round round;
     border-image-slice: 20%;
     background-color: inherit;  
+    font-weight: 100;
+    font-family: serif;
 
 }
 
@@ -38,24 +40,28 @@ body{
     border: double;
     border-width: medium;
     border-color: white;
+    font-weight: 100;
+    font-family: serif;
 }
 .Details{
     column-count: 2;
 }
 .pagenum a{
+    text-align: left;
     padding: 1%;
-    color: aqua;
+    color: inherit;
     font-family: serif;
-    font-size: 50px;
-    font-weight: bolder;
+    font-size: 25px;
     border-style: double;
-    border-color: red;
-    border-radius: 100px;
-    background: red;
+}
+footer h3{
+    text-align: center;
+    margin: auto;
 }
 footer{
-    text-align: center;
-    margin: 5%;
+    font-size: 25px;
+    text-align: left;
+    margin-top: 10%;
 }
 .Header{
     font-family: serif;
@@ -198,10 +204,11 @@ footer{
     font-size: 20px;
     letter-spacing: 1.5px;
     word-spacing: 5px;
-    font-weight: 100;
     font-family: serif;
     text-align: left;
-    background-color: rgba(0,0,0,.2)
+    background-color: rgba(0,0,0,.2);
+    font-weight: 100;
+    font-family: serif;
 }
 .ContentLore b{
     font-family: serif;
@@ -257,7 +264,6 @@ footer{
     font-family: serif;
     max-width: 65%;
     margin: auto;
-    font-weight: 100;
     padding: 1%;
 }
 .PsykerTable{
