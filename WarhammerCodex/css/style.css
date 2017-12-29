@@ -238,22 +238,25 @@ footer{
 }
 .TheKeywords{
     font-family: serif;
-    max-width: 40%;
-    padding-bottom: 5%;
-    text-align: left;
+    max-width: 100%;
+    padding: 4%;
+    text-align: center;
+    column-count: 2;
+    column-fill: balance;
+    margin: 1%;
 }
 .KeyDesc{
-    margin: inherit;
     text-align: center;
     font-family: serif;
-    padding: 1%;
 }
-
+.KeyDesc h1{
+    margin: auto;
+}
 .KeyDesc p{
     text-align: center;
     font-family: serif;
-    max-width: 40%;
-    margin-left: 30%;
+    max-width: 65%;
+    margin: auto;
     font-weight: 100;
     padding: 1%;
 }
@@ -437,4 +440,11 @@ html{
 }
 .Tacts p{
     margin: 0;
+}
+.Header p{
+    width: 50%;
+    font-family: serif;
+    font-size: 18px;
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
 }
